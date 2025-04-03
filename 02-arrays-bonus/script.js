@@ -39,8 +39,9 @@ for (let i = 0; i < teachers.length && isFabioPresent === false; i++) {
     isFabioPresent = true;
     console.log("Verifica n. " + i);
   }
-  console.log("Fabio è nella lista? " + isFabioPresent);
 }
+
+console.log("Fabio è nella lista? " + isFabioPresent);
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 let teachersString = "";
